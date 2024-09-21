@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a:hover{
+    background-color: white;
+    text-decoration: bold;
+    color:black;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 40px;
+}
+.photo-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.photo-section img {
+    width: 30%;
+    margin-bottom: 20px;
+}
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+header{
+    background-color: #007bff;
+            color: white;
+            padding: px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+}
+
+.section{
+    margin: 20px auto;
+    display: flex;
+    background-color: aqua;
+    margin:auto;
+    padding: 0 20px;
+}
+.image{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 25% 25% 25% 25%;
+}
+.contenu{
+    width: 50%;
+    padding-top:15%;
+    padding-left: 5%;
+    background-color: none;
+}
+
+.section-admin .div-1-admin{
+    background-color:rgb(25, 11, 146);
+    width: 65%;
+    border-radius: 0 0 0 20%;
+}
+.section-admin{
+    display: flex;
+    height: 100%;
+}
+.section-admin .logo1{
+    background-color: none;
+    color:white;
+}
+.section-admin .form{
+    background-color: black;
+    width: 35%;
+    color:white;
+}
+.form .lien{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+}
+.form .lien:hover{
+    text-decoration: underline;
+    color:blue;
+}
+.section-admin .login{
+ margin-top: 50%;
+    border: solid 1px white;
+    text-align: center;
+    box-shadow: 0 0 15px white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.submit{
+    background-color: rgb(93, 77, 241);
+    color:white;
+    border:none;
+    margin-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: rgb(25, 11, 146);
+    color:white;
+    border:none;
+    margin-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
